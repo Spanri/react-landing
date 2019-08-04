@@ -10,7 +10,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
-  "homepage": "./",
+  "homepage": "https://spanri.github.io/react-landing/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
