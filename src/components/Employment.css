@@ -17,6 +17,7 @@
   width: 100px;
   height: 90px;
   margin: 0 auto;
+  margin-top: 30px;
   animation: b 1.5s ease-in-out infinite;
 }
 

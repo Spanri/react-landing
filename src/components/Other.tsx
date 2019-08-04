@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 import Place1 from "./Place1";
 import Place2 from "./Place2";
@@ -13,19 +13,28 @@ export default class Other extends React.Component {
                 <div className="component-other">
                     <p>Это секрет!!!!!!!!!!!!!! Но вот про опыт работы</p>
                     <div className="links">
-                        <button>
-                            <Link to="/place1">ПЕРВАЯ ШТУКА</Link>
-                        </button>
-                        <button>
-                            <Link to="/place2">ВТОРАЯ ШТУКА</Link>
-                        </button>
+                        <Link to="/other/place1">
+                            <button>ПЕРВАЯ ШТУКА</button>
+                        </Link>
+                        <Link to="/other/place2">
+                            <button>ВТОРАЯ ШТУКА</button>
+                        </Link>
                     </div>
 
-                    <Route path="/place1" component={Place1} />
-                    <Route path="/place2" exact component={Place2} />
+                    <Route path="/other/place1" component={Place1} />
+                    <Route path="/other/place2" exact component={Place2} />
                 </div>
             </Router>
             
         );
     }
+}
+
+function Place10({ match }: { match: any }) {
+    return (
+        <div>
+            <h3>{match.path}</h3>
+            <Route path={match.path + '/'} component={Place1} />
+        </div>
+    );
 }

@@ -36,6 +36,9 @@
     color: white;
     box-shadow: rgb(88, 199, 175) -4px 4px;
 }
+.component-other button:hover{
+    cursor: pointer;
+}
 .component-other button:active{
     transform: translate(-4px, 4px);
     box-shadow: rgb(88, 199, 175) 0 0;

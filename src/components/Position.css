@@ -8,6 +8,9 @@
     color: white;
     box-shadow: rgb(88, 199, 175) -4px 4px;
 }
+.component-position button:hover{
+    cursor: pointer;
+}
 .component-position button:active{
     transform: translate(-4px, 4px);
     box-shadow: rgb(88, 199, 175) 0 0;

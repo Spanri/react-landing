@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 import Home from "./Home";
 import Who from "./Who";
@@ -7,7 +7,6 @@ import Position from "./Position";
 import Employment from "./Employment";
 import Schedule from "./Schedule";
 import Other from "./Other";
-
 
 import "./Header.css";
 
@@ -47,7 +46,7 @@ export default class Header extends React.Component {
                     </nav>
                     <div>
                         <Route path="/" exact component={Home} />
-                        <Route path="/who" exact component={Who} />
+                        <Route path='/who' component={Who} />
                         <Route path="/position" exact component={Position} />
                         <Route path="/employment" exact component={Employment} />
                         <Route path="/schedule" exact component={Schedule} />

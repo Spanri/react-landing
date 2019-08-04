@@ -11,7 +11,7 @@ export default class Position extends React.Component {
         if(this.state.text === "") {
             this.setState({ text: "Сейчас он хочет стать вот им ---->" });
         }
-        let rnd = Math.floor(Math.random() * 6); // от 0 до 5
+        let rnd = Math.floor(Math.random() * 10); // от 0 до 5
         switch (rnd) {
             case 0:
                 this.setState({ position: "Backend разработчик" })
@@ -30,6 +30,18 @@ export default class Position extends React.Component {
                 break;
             case 5:
                 this.setState({ position: "Backend developer!!!!!" })
+                break;
+            case 6:
+                this.setState({ position: "Информационные технологии, интернет, телеком" })
+                break;
+            case 7:
+                this.setState({ position: "Ну чтобы платили много" })
+                break;
+            case 8:
+                this.setState({ position: "стажер в отдел разработки" })
+                break;
+            case 9:
+                this.setState({ position: "ИТ-директор и зорплата миллион" })
                 break;
             default:
                 break;

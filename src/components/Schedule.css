@@ -6,4 +6,7 @@
 }
 .component-schedule .bar{
     width: 100vw;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
