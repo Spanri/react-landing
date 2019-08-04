@@ -1,0 +1,23 @@
+.component-header .title{
+    text-align: center;
+    color: rgb(88, 199, 175);
+}
+.component-header ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 30px;
+}
+.component-header ul img{
+    width: 20px;
+    margin-right: 5px;
+}
+.component-header li{
+    padding: 5px;
+}
+.component-header a{
+    color: rgb(21, 109, 90);
+    text-decoration: none;
+}
+.component-header a:hover{
+    color: #FF6384;
+}

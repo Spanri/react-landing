@@ -1,0 +1,14 @@
+.component-position{
+    padding: 0 40px;
+}
+.component-position button{
+    padding: 10px 20px;
+    background: #FF6384;
+    border: 0;
+    color: white;
+    box-shadow: rgb(88, 199, 175) -4px 4px;
+}
+.component-position button:active{
+    transform: translate(-4px, 4px);
+    box-shadow: rgb(88, 199, 175) 0 0;
+}

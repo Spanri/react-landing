@@ -1,0 +1,6 @@
+.component-app{
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto max-content;
+  color: rgb(21, 109, 90);
+}

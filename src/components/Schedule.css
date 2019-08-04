@@ -1,0 +1,9 @@
+.component-schedule p{
+    padding-bottom: 50px;
+}
+.component-schedule p{
+    padding: 0 40px;
+}
+.component-schedule .bar{
+    width: 100vw;
+}

@@ -1,0 +1,12 @@
+.component-who p{
+    padding: 5px 40px;
+}
+.component-who .one{
+    padding-bottom: 150px;
+}
+.component-who img{
+    width: 100%;
+}
+.component-who .right{
+    text-align: right;
+}

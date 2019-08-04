@@ -1,0 +1,15 @@
+.component-home{
+    width: 100%;
+    background-image: url("../assets/fireplace.jpg");
+    background-position: left 0px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding-bottom:  66.67%;
+    margin: 0;
+}
+.component-home p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-shadow:rgb(0, 0, 0) 0px 0px 3px;
+}

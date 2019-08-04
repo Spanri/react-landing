@@ -1,0 +1,9 @@
+.component-footer{
+    height: 50px;
+    background: #FF6384;
+    color: white;
+    text-align: center;
+}
+.component-footer > p{
+    margin: 12px;
+}

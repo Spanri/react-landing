@@ -1,0 +1,55 @@
+.component-other .mobile{
+    display: none;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    background: rgb(21, 109, 90);
+    color: white;
+}
+.component-other p{
+    padding: 10px 40px;
+    margin: 0;
+}
+.component-other .links{
+    margin: 0px 0px;
+}
+.component-other .links button{
+    margin: 10px 40px;
+    padding: 10px;
+}
+.component-other a{
+    padding: 0px;
+    color: white !important;
+}
+.component-other table, .component-other th, .component-other td{
+    border: 3px solid rgb(253, 150, 173);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+.component-other table{
+    margin: 20px auto;
+}
+.component-other button{
+    padding: 10px 20px;
+    background: #FF6384;
+    border: 0;
+    color: white;
+    box-shadow: rgb(88, 199, 175) -4px 4px;
+}
+.component-other button:active{
+    transform: translate(-4px, 4px);
+    box-shadow: rgb(88, 199, 175) 0 0;
+}
+@media only screen and (max-width: 1200px) {
+    .component-other table{
+        margin: 20px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .component-other table{
+        display: none;
+    }
+    .component-other .mobile{
+        display: block;
+    }
+}
